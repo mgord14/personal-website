@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Mara Gordon</title>
+
+    <link rel="icon" href="fav.png">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top" style="position: relative; background: black;">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="http://www-personal.umich.edu/~mgord">Mara Gordon</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="http://www-personal.umich.edu/~mgord/index.html">Home</a>
+                    </li>
+                    <li>
+                        <!--slide show -->
+                        <a href="http://www-personal.umich.edu/~mgord/projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <!-- gallery -->
+                        <a>Interests</a>
+                    </li>
+                    <li>
+                        <!-- takes u to pdf -->
+                        <a class="page-scroll" href="img/resume.pdf" download>Resume</a>
+                    </li>
+                     <li>
+                        <a class="page-scroll" href="http://www-personal.umich.edu/~mgord/index.html#about">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                To get to know me a little bit more, I thought it would be fun to include a page about my interests. I love to travel, take pictures, cook and do pottery. Below are some pictures I've taken of my favorite pieces of pottery, places to travel, and food to eat! Click on a picture for a more detailed story of each.
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <div class="row">
+      <div class="column">
+        <img src="img/interests/1.JPG" onclick="openModal();currentSlide(1)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="img/interests/2.JPG" onclick="openModal();currentSlide(2)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="img/interests/3.JPG" onclick="openModal();currentSlide(3)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="img/interests/4.JPG" onclick="openModal();currentSlide(4)" class="hover-shadow">
+    </div>
+    <div class="row">
+      </div>
+      <div class="column">
+        <img src="img/interests/5.JPG" onclick="openModal();currentSlide(5)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="img/interests/6.JPG" onclick="openModal();currentSlide(6)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="img/interests/7.JPG" onclick="openModal();currentSlide(7)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="img/interests/8.JPG" onclick="openModal();currentSlide(8)" class="hover-shadow">
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="img/interests/9.JPG" onclick="openModal();currentSlide(9)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="img/interests/10.JPG" onclick="openModal();currentSlide(10)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="img/interests/11.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+      </div>
+      <div class="column">
+        <img src="img/interests/12.JPG" onclick="openModal();currentSlide(12)" class="hover-shadow">
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="img/interests/13.JPG" onclick="openModal();currentSlide(13)" class="hover-shadow">
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides">
+            <img src="img/interests/1.JPG" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <img src="img/interests/2.JPG" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <img src="img/interests/3.JPG" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <img src="img/interests/4.JPG" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <img src="img/interests/5.JPG" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <img src="img/interests/6.JPG" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <img src="img/interests/7.JPG" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <img src="img/interests/8.JPG" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <img src="img/interests/9.JPG" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <img src="img/interests/10.JPG" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <img src="img/interests/11.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <img src="img/interests/12.JPG" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <img src="img/interests/13.JPG" style="width:100%">
+        </div>
+
+        <a class="prev1" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next1" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <div class="column">
+          <img class="demo" src="img/interests/1.JPG" onclick="currentSlide(1)" alt="I took a clay class over the summer to get back into it after a long hiatus. This is my first piece I made.">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="img/interests/2.JPG" onclick="currentSlide(2)" alt="Another picture of the blue Bowl I made over the summer.">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="img/interests/3.JPG" onclick="currentSlide(3)" alt="I made all of these pieces on a wheel. I gave this to my parents to keep in our home.">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="img/interests/4.JPG" onclick="currentSlide(4)" alt="These are two pieces I made back in high school.">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="img/interests/5.JPG" onclick="currentSlide(5)" alt="This little cup with a spout is in my room at school and one of my favorites!">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="img/interests/6.JPG" onclick="currentSlide(6)" alt="The dent on this was made on purpose; I decided to experiment. I love the crackle glaze on this one.">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="img/interests/7.JPG" onclick="currentSlide(7)" alt="Over the summer, I went to LA. This is a cute area of Venice Beach called The Cannals.">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="img/interests/8.JPG" onclick="currentSlide(8)" alt="My favorite place on earth is Iceland! I went for spring break last year. This waterfall was in Rangárping eystra.">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="img/interests/9.JPG" onclick="currentSlide(9)" alt="This is a friend I went to Iceland with skipping rocks on a black sand beach.">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="img/interests/10.JPG" onclick="currentSlide(10)" alt="The black sand beach was in Vík, a town with a population of 318. The sand is black because it's rock made from cooled lava, called basalt rock.">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="img/interests/11.jpg" onclick="currentSlide(11)" alt="Another beautiful mountain near a waterfall in Iceland.">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="img/interests/12 .JPG" onclick="currentSlide(12)" alt="Some of the best cupcakes I made for a friend's birthday which happens to be on Saint Patrick's day.">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="img/interests/13.JPG" onclick="currentSlide(13)" alt="I am trying to eat less meat and processed foods, so to do this, I like to make exciting meals!">
+        </div>
+      </div>
+    </div>
+
+
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+  document.getElementById('mainNav').style.display = "none";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+  document.getElementById('mainNav').style.display = "block";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Mara Gordon 2017</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="mailto:mgord@umich.edu"><i class="fa fa-envelope"></i></a>
+                        </li>
+                        <li><a href="www.facebook.com/mara.gordon.9"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/mara-gordon-565189128"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+</body>
+
+</html>
